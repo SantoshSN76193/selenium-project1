@@ -14,6 +14,7 @@ public class ToolsQaTest_HybridFramework {
 
 		// Setup
 		WebDriver driver = new ChromeDriver;
+		Thread.sleep(2000);
 		driver = TestRunSetup.launchBrowser("chrome", "http://toolsqa.com/automation-practice-form/");
 		
 		// Test steps
