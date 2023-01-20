@@ -13,7 +13,7 @@ public class ToolsQaTest_HybridFramework {
 		System.out.println("*** Start ToolsQA Automation Test ***");
 
 		// Setup
-		WebDriver driver = null;
+		WebDriver driver = new ChromeDriver;
 		driver = TestRunSetup.launchBrowser("chrome", "http://toolsqa.com/automation-practice-form/");
 		
 		// Test steps
